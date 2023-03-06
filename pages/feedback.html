@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../assets/css/feedback.index.css" />
+    <title>feedback</title>
+  </head>
+  <body>
+    <iframe
+      scrolling="no"
+      src="../layouts/header.html"
+      frameborder="0"
+      width="100%"
+    ></iframe>
+
+    <form target="_parent" action="../pages/sucess.html">
+      <h1>Deixe seu feedback!</h1>
+      <div>
+        <label for="nome">Nome: </label>
+        <div id="input_icon1">
+          <input
+            id="iconenome"
+            type="text"
+            placeholder="Digite seu Nome completo"
+          />
+        </div>
+
+        <label for="email">E-mail: </label>
+        <div id="input_icon2">
+          <input id="iconemail" type="email" placeholder="Digite seu E-mail"/ >
+        </div>
+
+        <label for="mensagem"> </label>
+          <label for="pass">Mensagem (280 caracteres no máximo): </label>
+          <div id="input_icon3">
+            <textarea
+            id="iconelapis"
+            name="Mensagem"
+            placeholder="Deixe aqui sua mensagem"
+            cols="30"
+            rows="1"
+            maxlength="280"
+          ></textarea>
+          </div>
+        </div>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <iframe
+      src="../layouts/footer.html"
+      scrolling="no"
+      height="60px"
+      width="100%"
+      frameborder="0"
+    ></iframe>
+  </body>
+</html>
