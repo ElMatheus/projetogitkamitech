@@ -1,81 +1,92 @@
-header{
+header {
     background-color: rgb(252, 0, 134);
     margin-top: 0px;
     padding: 0;
 
 }
 
-#logo{
+#logo {
     width: 110px;
     height: 110px;
     position: relative;
 }
 
-#logo{
+#logo {
     animation: spin 2s;
 
 }
 
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-p{
+p {
     text-align: center;
 }
 
-#ul1{
-    display: flex; 
+#ul1 {
+    display: flex;
     list-style-type: none;
     font-family: fantasy;
     justify-content: space-evenly;
 }
-#ul :hover{
-background-color: blueviolet;
+
+#ul :hover {
+    background-color: blueviolet;
 }
 
-nav a{
+/* #ul::after {
+    content: " ";
+    width: 100%;
+    height: 4px;
+    background-color: black;
+} */
+
+nav a {
     color: white;
     position: relative;
 }
 
-#nav a::after{
-    content:" ";
+
+nav a::after {
+    content: " ";
     width: 0%;
-    height: 2px ;
-    background-color: blueviolet;
+    height: 4px;
+    background-color: black;
     position: absolute;
-    margin-top: 0;
+    bottom: 0;
     left: 0;
-    transition: 0.5s ease-in-out;
-}
-/*  
-nav a:hover::after{
-    width: 100%;
-    background-color: rgb(230, 99, 193);
 
 }
-*/
-a{
+
+nav a:hover::after{
+    width: 100%;
+}
+
+
+a {
     text-decoration: none;
     color: white;
     justify-content: center;
 }
 
-a :hover{
-    background-color: blue;
-
-}
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color:  rgb(252, 0, 134);
+body {
+    background-color: rgb(252, 0, 134);
 }
 
-:link:hover { color: rgb(226, 43, 144); }
+a:hover {
+    background-color: rgb(255, 0, 191);
+
+}
