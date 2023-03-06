@@ -1,5 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'McLaren', cursive;
+  
+}
+
 /* tags usadas para mudar o interior do site*/
-.container {
+.maincontainer {
     display: flex;
     background-color: pink;
     -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
@@ -7,23 +17,18 @@
     box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     border-radius: 5px;
 }
-body{
-   background-image: url(../images/67663.jpg);
-}
 main{
     background-color: pink;
     margin: 50px;
     -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
--moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+     box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     
 }
 /* abaixo estão as tags usadas para consertar a primeira section que estava dando problema*/
 .titulo {
     text-align: center;
 }
-
-
 
 main .container article {
     display: flex;
@@ -218,4 +223,68 @@ box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     margin-left: 60px;
     width: 33%;
     border-radius: 5px;
+
+
+
+.container {
+    padding: 10px;
+    background-color: pink;
+    box-shadow: 5px 5px 16px 1px #000;
+    width: 97%;
+    margin: auto;
+    border-left: 5px solid rgb(228, 210, 10);
+    margin-bottom: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container .container2 {
+    display: flex;
+    
+}
+
+.container .container2 article {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+    border-radius: 5px;
+    box-shadow: 5px 5px 16px 1px #000;
+    border-left: 5px solid rgb(228, 210, 10);
+    cursor: pointer;
+}
+
+.nomeData {
+    display: flex;
+    align-items: center;
+}
+
+.nomeData p {
+    margin-left: 5px;
+    opacity: 0.5;
+}
+
+.container .container2 article:hover {
+    transform: scale(0.9);
+}
+
+.container .container2 article section {
+    display: flex;
+    
+}
+
+.container .container2 article section img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.container .container2 article section span {
+    margin-left: 5px;
+}
+
+footer iframe {
+    margin-bottom: -5px;
 }

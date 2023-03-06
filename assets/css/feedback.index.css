@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+    max-width: 500px;
+}
+
+input {
+    color: black;
+    background-color: wheat;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+    display: block;
+
+}
+
+textarea,
+input {
+    width: 100%;
+}
+
+#submit {
+    width: 30%;
+    margin: 10px auto;
+}
+
+#submit:hover {
+    color: palevioletred;
+}
+
+label {
+    margin: 5px 0px;
+}
+
+body {
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: palevioletred;
+    border: 1px solid palevioletred;
+    background-color: wheat;
+}
+
+footer iframe {
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: -5px;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    padding: 5px;
+    text-align: center;
+}
+
+div {
+    width: 60%;
+    margin: auto;
+    padding-top: 25px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(173, 59, 78);
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 60%;
+}
+
+button:hover {
+    background-color: rgb(69, 30, 43);
+}
+
+#iconenome {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background: url(../images/usuario-de-perfil.png) no-repeat left;
+    background-size: 25px;
+    outline: none;
+    border: 0;
+}
+
+#iconemail {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background: url(../images/o-email.png) no-repeat left;
+    background-size: 25px;
+    outline: none;
+    border: 0;
+}
+
+#iconelapis {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    background: url(../images/lapis.png) no-repeat left;
+    background-size: 25px;
+    outline: none;
+    border: 0;
+
+}
+
+#input_icon1 {
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+    background-color: wheat;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#input_icon2 {
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+    background-color: wheat;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#input_icon3 {
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+    background-color: wheat;
+    height: 40px;
+    border: 1px solid black;
+}

@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: pink;
 
 }
 
@@ -13,12 +13,12 @@ footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: hotpink;
+    background-color: pink;
     text-align: center;
     margin-top: 2px;
 }
 
 footer p {
-    color: cornsilk;
+    color: black;
     font-weight: bold;
 }
