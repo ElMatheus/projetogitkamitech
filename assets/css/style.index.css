@@ -26,13 +26,16 @@ main .container {
 .container2 {
     display: flex;
 }
-
+#b1{
+    margin-top: 50px;
+}
 #c1 {
     background-color: pink;
     width: auto;
     padding: 20px;
     margin: 10px;
     max-width: 30%;
+   
 }
 
 #c2 {
@@ -61,6 +64,12 @@ main .container {
     display: flex;
     justify-content: center;
 }
+#b2{
+    margin-top: 50px;
+}
+#b3{
+    margin-top: 50px;
+}
 
 
 #c4 {
@@ -74,7 +83,7 @@ main .container {
     background-color: pink;
 
     height: 300px;
-    margin-left: 60px;
+  margin-left: 60px;
     width: 33%;
 }
 
@@ -94,7 +103,7 @@ main .container {
     background-color: pink;
 
     height: 300px;
-    margin-left: 60px;
+    
     width: 33%;
 }
 
@@ -118,7 +127,7 @@ main .container {
     background-color: pink;
 
     height: 300px;
-    margin-left: 60px;
+    
     width: 33%;
 }
 
