@@ -1,5 +1,5 @@
 .container{
-    
+    display: flex;
     background-color: pink;
 }
    
@@ -11,8 +11,39 @@ main{
 }
 .container2{
     
-    background-color: pink;
+    
     margin: auto;
     display: flex;
+    width: 33%;
+    
 
+}
+#c1{
+    background-color: pink;
+    width: 40%;
+    height: 300px;
+    
+    margin-right: 100px;
+   
+}
+#c3{
+    background-color: pink;
+    width: 40%;
+    height: 300px;
+    margin-right: 100px;
+}
+#c2{
+    background-color: pink;
+    width: 40%;
+    height: 300px;
+    margin-right: 50px;
+}
+#a1{
+    display: flex;
+}
+#c4{
+    background-color: pink;
+    width: 30%;
+    height: 300px;
+    margin-right: 50px;
 }
