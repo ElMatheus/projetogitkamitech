@@ -3,12 +3,25 @@
     background-color: pink;
 }
    
-body{
+.titulo {
     text-align: center;
 }
 main{
     height: 200px;
 }
+
+main .container article {
+    display: flex;
+}
+
+main .container h2 {
+    display: block;
+}
+
+main .container {
+    padding: 10px;
+}
+
 .container2{
     
     
@@ -52,8 +65,8 @@ main{
 
 #c4{
     background-color: pink;
-
-    padding: 10px;
+     width: 33%;
+    
     
 }
 #c5{
@@ -61,10 +74,12 @@ main{
     padding: 10px;
     height: 300px;
     margin-left: 60px;
+    width: 33%;
 }
 #c6{
     background-color: pink;
-    padding: 10px;
+   
+    width: 33%;
     height: 300px;
     margin-left: 60px;
 }
@@ -74,40 +89,46 @@ main{
 }
 #c7{
     background-color: pink;
-    padding: 10px;
+    
     height: 300px;
     margin-left: 60px;
+    width: 33%;
 }
 #c8{
     background-color: pink;
-    padding: 10px;
+    
     height: 300px;
     margin-left: 60px;  
+    width: 33%;
 }
 #c9{
     background-color: pink;
-    padding: 10px;
+    
     height: 300px;
     margin-left: 60px; 
+    width: 33%;
 }
 #c10{
     background-color: pink;
-    padding: 10px;
+   
     height: 300px;
     margin-left: 60px; 
+    width: 33%;
 }
 #b3{
     display: flex;
 }
 #c11{
     background-color: pink;
-    padding: 10px;
+ 
     height: 300px;
     margin-left: 60px; 
+    width: 33%;
 }
 #c12{
     background-color: pink;
-    padding: 10px;
+ 
     height: 300px;
     margin-left: 60px; 
+    width: 33%;
 }
