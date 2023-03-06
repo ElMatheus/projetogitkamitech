@@ -21,11 +21,10 @@ body {
 main {
     background-color: pink;
     margin: 50px;
-    -webkit-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    padding: 20px;
-
+    -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+     box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    
 }
 
 /* abaixo estão as tags usadas para consertar a primeira section que estava dando problema*/
@@ -126,8 +125,9 @@ main .container {
 
 #c5 {
     background-color: pink;
-    padding: 20px;
-    margin-left: 60px;
+
+    height: 300px;
+  margin-left: 60px;
     width: 33%;
     -webkit-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
@@ -158,8 +158,9 @@ main .container {
 
 #c7 {
     background-color: pink;
-    padding: 20px;
 
+    height: 300px;
+    
     width: 33%;
     -webkit-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
@@ -198,10 +199,10 @@ main .container {
 #c10 {
     background-color: pink;
 
-    padding: 20px;
-    -webkit-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
+    height: 300px;
+    -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     width: 33%;
     border-radius: 5px;
 }
@@ -213,9 +214,10 @@ main .container {
 
 #c11 {
     background-color: pink;
-    -webkit-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    height: 300px;
     margin-left: 60px;
     width: 33%;
     border-radius: 5px;
@@ -224,10 +226,10 @@ main .container {
 
 #c12 {
     background-color: pink;
-    -webkit-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
-    padding: 20px;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    height: 300px;
     margin-left: 60px;
     width: 33%;
     border-radius: 5px;
