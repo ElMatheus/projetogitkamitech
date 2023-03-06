@@ -41,7 +41,17 @@ main{
 #a1{
     display: flex;
 }
+#b1{
+    display: flex;
+    margin-top: auto;
+}
 #c4{
+    background-color: pink;
+    width: 30%;
+    height: 300px;
+    margin-right: 50px;
+}
+#c5{
     background-color: pink;
     width: 30%;
     height: 300px;
