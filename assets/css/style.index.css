@@ -5,7 +5,226 @@
 
 body {
     font-family: 'McLaren', cursive;
+  
 }
+
+/* tags usadas para mudar o interior do site*/
+.maincontainer {
+    display: flex;
+    background-color: pink;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+main{
+    background-color: pink;
+    margin: 50px;
+    -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+     box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    
+}
+/* abaixo estão as tags usadas para consertar a primeira section que estava dando problema*/
+.titulo {
+    text-align: center;
+}
+
+main .container article {
+    display: flex;
+}
+
+main .container h2 {
+    display: block;
+}
+
+main .container {
+    padding: 10px;
+}
+
+.container2 {
+    display: flex;
+}
+/* os b são para edição dos articles*/
+#b1{
+    margin-top: 50px;
+}
+/* cada c é um id criado para os cards*/
+#c1 {
+    background-color: pink;
+    width: auto;
+    padding: 20px;
+    margin: 10px;
+    max-width: 30%;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    border-radius: 5px;
+
+}
+
+#c2 {
+    background-color: pink;
+    margin: 10px;
+    width: 33%;
+    padding: 20px;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+border-radius: 5px;
+
+}
+
+#c3 {
+    background-color: pink;
+    width: 33%;
+    margin: 10px;
+    padding: 20px;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+border-radius: 5px;
+
+}
+
+
+#a1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#b1 {
+    display: flex;
+    justify-content: center;
+}
+#b2{
+    margin-top: 50px;
+}
+#b3{
+    margin-top: 50px;
+}
+
+
+#c4 {
+    background-color: pink;
+    width: 33%;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+    border-radius: 5px;
+
+
+}
+
+#c5 {
+    background-color: pink;
+
+    height: 300px;
+  margin-left: 60px;
+    width: 33%;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+border-radius: 5px;
+
+}
+
+#c6 {
+    background-color: pink;
+
+    width: 33%;
+    height: 300px;
+    margin-left: 60px;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+border-radius: 5px;
+
+}
+
+#b2 {
+    display: flex;
+}
+
+#c7 {
+    background-color: pink;
+
+    height: 300px;
+    
+    width: 33%;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+border-radius: 5px;
+
+}
+
+#c8 {
+    background-color: pink;
+
+    height: 300px;
+    margin-left: 60px;
+    width: 33%;-webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+border-radius: 5px;
+
+
+}
+
+#c9 {
+    background-color: pink;
+
+    height: 300px;
+    margin-left: 60px;
+    width: 33%;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+border-radius: 5px;
+
+}
+
+#c10 {
+    background-color: pink;
+
+    height: 300px;
+    -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    width: 33%;
+    border-radius: 5px;
+}
+
+
+#b3 {
+    display: flex;
+}
+
+#c11 {
+    background-color: pink;
+    -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    height: 300px;
+    margin-left: 60px;
+    width: 33%;
+    border-radius: 5px;
+}
+
+
+#c12 {
+    background-color: pink;
+    -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    height: 300px;
+    margin-left: 60px;
+    width: 33%;
+    border-radius: 5px;
+}
+
 
 .container {
     padding: 10px;
