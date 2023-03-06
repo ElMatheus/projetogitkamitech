@@ -16,6 +16,10 @@ header{
 
 }
 
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
 
 p{
     text-align: center;
@@ -46,13 +50,13 @@ nav a{
     left: 0;
     transition: 0.5s ease-in-out;
 }
-
+/*  
 nav a:hover::after{
     width: 100%;
     background-color: rgb(230, 99, 193);
 
 }
-
+*/
 a{
     text-decoration: none;
     color: white;
@@ -60,6 +64,7 @@ a{
 }
 
 a :hover{
+    background-color: blue;
 
 }
 
