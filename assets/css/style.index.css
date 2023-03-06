@@ -37,7 +37,7 @@
 }
 
 .container .container2 article section img {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 100px;
     height: 100px;
 }
