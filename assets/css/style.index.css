@@ -52,13 +52,22 @@ main{
     justify-content: center;
 }
 
+
 #c4{
     background-color: pink;
-/*     width: 30%; */
+
     padding: 10px;
+    
 }
 #c5{
     background-color: pink;
     padding: 10px;
     height: 300px;
+    margin-left: 60px;
+}
+#c6{
+    background-color: pink;
+    padding: 10px;
+    height: 300px;
+    margin-left: 60px;
 }
