@@ -75,5 +75,7 @@ a :hover{
 }
 
 body{
-    background-color: rgb(79, 70, 75);
+    background-color:  rgb(252, 0, 134);
 }
+
+:link:hover { color: rgb(226, 43, 144); }
