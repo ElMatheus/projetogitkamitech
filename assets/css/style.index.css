@@ -9,8 +9,15 @@
 
 .container .container2 article {
     width: 30%;
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
 }
 
 .container .container2 article section {
     display: flex;
+}
+
+.container .container2 article section img {
+    border-radius: 50%;
 }
