@@ -1,6 +1,6 @@
 header{
     background-color: rgb(252, 0, 134);
-    margin-top: 10px;
+    margin-top: 0px;
     padding: 0;
 
 }
@@ -10,6 +10,12 @@ header{
     height: 110px;
     position: relative;
 }
+
+#logo{
+    animation: spin 2s;
+
+}
+
 
 p{
     text-align: center;
@@ -32,15 +38,18 @@ nav a{
 
 #nav a::after{
     content:" ";
-    width: 100%;
+    width: 0%;
     height: 2px ;
     background-color: blueviolet;
     position: absolute;
-    bottom: 0;
+    margin-top: 0;
     left: 0;
+    transition: 0.5s ease-in-out;
 }
 
-nav a:hover::after{width: 100%;
+nav a:hover::after{
+    width: 100%;
+    background-color: rgb(230, 99, 193);
 
 }
 
@@ -50,6 +59,9 @@ a{
     justify-content: center;
 }
 
+a :hover{
+
+}
 
 *{
     padding: 0;
@@ -58,5 +70,5 @@ a{
 }
 
 body{
-    background-color: rgb(255, 228, 243);
+    background-color: rgb(79, 70, 75);
 }
