@@ -12,48 +12,53 @@ main{
 .container2{
     
     
-    margin: auto;
     display: flex;
-    width: 33%;
+    justify-content: center;
     
 
 }
 #c1{
     background-color: pink;
-    width: 40%;
+    width: 33%;
     height: 300px;
-    
-    margin-right: 100px;
+    padding: 20px;
+    margin: 10px;
    
 }
 #c3{
     background-color: pink;
-    width: 40%;
+    width: 33%;
+    margin: 10px;
     height: 300px;
-    margin-right: 100px;
+    padding: 20px;
 }
 #c2{
     background-color: pink;
-    width: 40%;
+    margin: 10px;
+    width: 33%;
     height: 300px;
-    margin-right: 50px;
+    padding: 20px;
 }
 #a1{
     display: flex;
 }
-#b1{
-    display: flex;
-    margin-top: auto;
+.container3{
+
+
 }
+
+#b1 {
+    display: flex;
+    justify-content: center;
+}
+
 #c4{
     background-color: pink;
-    width: 30%;
-    height: 300px;
-    margin-right: 50px;
+/*     width: 30%; */
+    padding: 10px;
 }
 #c5{
     background-color: pink;
-    width: 30%;
+    padding: 10px;
     height: 300px;
-    margin-right: 50px;
 }
