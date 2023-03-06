@@ -1,13 +1,14 @@
-.container{
+.container {
     display: flex;
     background-color: pink;
 }
-   
+
 .titulo {
     text-align: center;
 }
-main{
-    height: 200px;
+
+main {
+    /*     height: 200px; */
 }
 
 main .container article {
@@ -22,38 +23,37 @@ main .container {
     padding: 10px;
 }
 
-.container2{
-    
-    
+.container2 {
     display: flex;
-    justify-content: center;
-    
+}
+
+#c1 {
+    background-color: pink;
+    width: auto;
+    padding: 20px;
+    margin: 10px;
+    max-width: 30%;
+}
+
+#c2 {
+    background-color: pink;
+    margin: 10px;
+    width: 33%;
+    padding: 20px;
 
 }
-#c1{
-    background-color: pink;
-    width: 33%;
-    height: 300px;
-    padding: 20px;
-    margin: 10px;
-   
-}
-#c3{
+
+#c3 {
     background-color: pink;
     width: 33%;
     margin: 10px;
-    height: 300px;
     padding: 20px;
 }
-#c2{
-    background-color: pink;
-    margin: 10px;
-    width: 33%;
-    height: 300px;
-    padding: 20px;
-}
-#a1{
+
+
+#a1 {
     display: flex;
+    justify-content: center;
 }
 
 
@@ -63,72 +63,81 @@ main .container {
 }
 
 
-#c4{
+#c4 {
     background-color: pink;
-     width: 33%;
-    
-    
+    width: 33%;
+
+
 }
-#c5{
+
+#c5 {
     background-color: pink;
-    padding: 10px;
+
     height: 300px;
     margin-left: 60px;
     width: 33%;
 }
-#c6{
+
+#c6 {
     background-color: pink;
-   
+
     width: 33%;
     height: 300px;
     margin-left: 60px;
 }
 
-#b2{
+#b2 {
     display: flex;
 }
-#c7{
+
+#c7 {
     background-color: pink;
-    
+
     height: 300px;
     margin-left: 60px;
     width: 33%;
 }
-#c8{
+
+#c8 {
     background-color: pink;
-    
+
     height: 300px;
-    margin-left: 60px;  
+    margin-left: 60px;
     width: 33%;
 }
-#c9{
+
+#c9 {
     background-color: pink;
-    
+
     height: 300px;
-    margin-left: 60px; 
+    margin-left: 60px;
     width: 33%;
 }
-#c10{
+
+#c10 {
     background-color: pink;
-   
+
     height: 300px;
-    margin-left: 60px; 
+    margin-left: 60px;
     width: 33%;
 }
-#b3{
+
+#b3 {
     display: flex;
 }
-#c11{
+
+#c11 {
     background-color: pink;
- 
+
     height: 300px;
-    margin-left: 60px; 
+    margin-left: 60px;
     width: 33%;
 }
-#c12{
+
+#c12 {
     background-color: pink;
- 
+
     height: 300px;
-    margin-left: 60px; 
+    margin-left: 60px;
     width: 33%;
 }
