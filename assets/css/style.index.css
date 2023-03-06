@@ -42,10 +42,7 @@ main{
 #a1{
     display: flex;
 }
-.container3{
 
-
-}
 
 #b1 {
     display: flex;
@@ -70,4 +67,41 @@ main{
     padding: 10px;
     height: 300px;
     margin-left: 60px;
+}
+
+#b2{
+    display: flex;
+}
+#c7{
+    background-color: pink;
+    padding: 10px;
+    height: 300px;
+    margin-left: 60px;
+}
+#c8{
+    background-color: pink;
+    padding: 10px;
+    height: 300px;
+    margin-left: 60px;  
+}
+#c9{
+    background-color: pink;
+    padding: 10px;
+    height: 300px;
+    margin-left: 60px; 
+}
+#c10{
+    background-color: pink;
+    padding: 10px;
+    height: 300px;
+    margin-left: 60px; 
+}
+#b3{
+    display: flex;
+}
+#c11{
+    background-color: pink;
+    padding: 10px;
+    height: 300px;
+    margin-left: 60px; 
 }
