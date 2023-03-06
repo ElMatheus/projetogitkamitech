@@ -2,6 +2,14 @@
     display: flex;
     background-color: pink;
 }
+main{
+    background-color: pink;
+    margin: 50px;
+    -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
+    
+}
 
 .titulo {
     text-align: center;
@@ -35,7 +43,9 @@ main .container {
     padding: 20px;
     margin: 10px;
     max-width: 30%;
-   
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 }
 
 #c2 {
@@ -43,6 +53,9 @@ main .container {
     margin: 10px;
     width: 33%;
     padding: 20px;
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 
 }
 
@@ -51,6 +64,9 @@ main .container {
     width: 33%;
     margin: 10px;
     padding: 20px;
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 }
 
 
@@ -75,7 +91,9 @@ main .container {
 #c4 {
     background-color: pink;
     width: 33%;
-
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 
 }
 
@@ -85,6 +103,9 @@ main .container {
     height: 300px;
   margin-left: 60px;
     width: 33%;
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 }
 
 #c6 {
@@ -93,6 +114,9 @@ main .container {
     width: 33%;
     height: 300px;
     margin-left: 60px;
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 }
 
 #b2 {
@@ -105,6 +129,9 @@ main .container {
     height: 300px;
     
     width: 33%;
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 }
 
 #c8 {
@@ -112,7 +139,9 @@ main .container {
 
     height: 300px;
     margin-left: 60px;
-    width: 33%;
+    width: 33%;-webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 }
 
 #c9 {
@@ -121,13 +150,18 @@ main .container {
     height: 300px;
     margin-left: 60px;
     width: 33%;
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
 }
 
 #c10 {
     background-color: pink;
 
     height: 300px;
-    
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
     width: 33%;
 }
 
@@ -137,7 +171,9 @@ main .container {
 
 #c11 {
     background-color: pink;
-
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
     height: 300px;
     margin-left: 60px;
     width: 33%;
@@ -145,7 +181,9 @@ main .container {
 
 #c12 {
     background-color: pink;
-
+    -webkit-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
+    box-shadow: inset -3px 6px 33px 13px rgba(0,0,0,0.75);
     height: 300px;
     margin-left: 60px;
     width: 33%;
