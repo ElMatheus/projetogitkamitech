@@ -27,7 +27,7 @@ footer iframe {
 }
 
 img {
-    animation: spin 2ss;
+    animation: spin 2s;
 }
 
 @keyframes spin {
