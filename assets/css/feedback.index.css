@@ -64,7 +64,7 @@ footer iframe {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 40px;
     padding: 5px;
     text-align: center;
 }
@@ -96,6 +96,16 @@ button:hover {
     background-color: rgb(69, 30, 43);
 }
 
+#iconenome{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background: url(../images/usuario-de-perfil.png) no-repeat left;
+    background-size: 25px;
+    outline: none;
+    border: 0;
+}
+
 #iconemail{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -106,11 +116,20 @@ button:hover {
     border: 0;
 }
 
-#input_icon {
+#input_icon1{
     border-radius: 5px;
     width: 100%;
     padding: 0;
     background-color: wheat;
     height: 40px;
-    border: 2px solid black;
+    border: 1px solid black;
+}
+
+#input_icon2 {
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+    background-color: wheat;
+    height: 40px;
+    border: 1px solid black;
 }
