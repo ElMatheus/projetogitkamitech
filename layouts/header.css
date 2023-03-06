@@ -17,18 +17,23 @@ p{
 
 #ul1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-evenly ;
     list-style-type: none;
     font-family: fantasy;
+}#ul :hover{
+background-color: blueviolet;
 }
 
-li{
-    list-style-type: none;
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
 }
 
-nav{
-    list-style-type: none;
-}
+
 *{
     padding: 0;
     margin: 0
