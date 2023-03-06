@@ -1,3 +1,4 @@
+/* tags usadas para mudar o interior do site*/
 .container {
     display: flex;
     background-color: pink;
@@ -17,14 +18,12 @@ main{
 box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     
 }
-
+/* abaixo estão as tags usadas para consertar a primeira section que estava dando problema*/
 .titulo {
     text-align: center;
 }
 
-main {
-    /*     height: 200px; */
-}
+
 
 main .container article {
     display: flex;
@@ -41,9 +40,11 @@ main .container {
 .container2 {
     display: flex;
 }
+/* os b são para edição dos articles*/
 #b1{
     margin-top: 50px;
 }
+/* cada c é um id criado para os cards*/
 #c1 {
     background-color: pink;
     width: auto;
