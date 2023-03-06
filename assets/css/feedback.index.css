@@ -64,7 +64,9 @@ footer iframe {
 }
 
 h1 {
-    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 35px;
     padding: 5px;
     text-align: center;
 }
@@ -96,7 +98,7 @@ button:hover {
     background-color: rgb(69, 30, 43);
 }
 
-#iconenome{
+#iconenome {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -106,7 +108,7 @@ button:hover {
     border: 0;
 }
 
-#iconemail{
+#iconemail {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -116,7 +118,18 @@ button:hover {
     border: 0;
 }
 
-#input_icon1{
+#iconelapis {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    background: url(../images/lapis.png) no-repeat left;
+    background-size: 25px;
+    outline: none;
+    border: 0;
+
+}
+
+#input_icon1 {
     border-radius: 5px;
     width: 100%;
     padding: 0;
@@ -126,6 +139,15 @@ button:hover {
 }
 
 #input_icon2 {
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+    background-color: wheat;
+    height: 40px;
+    border: 1px solid black;
+}
+
+#input_icon3 {
     border-radius: 5px;
     width: 100%;
     padding: 0;
