@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -13,74 +13,78 @@ form{
     max-width: 500px;
 }
 
-input{
+input {
     color: black;
     background-color: wheat;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid palevioletred;
     display: block;
+
 }
 
-textarea,input{
+textarea,
+input {
     width: 100%;
 }
 
-#submit{
+#submit {
     width: 30%;
     margin: 10px auto;
 }
 
-#submit:hover{
+#submit:hover {
     color: palevioletred;
 }
 
-label{
+label {
     margin: 5px 0px;
 }
 
-body{
+body {
     background-color: pink;
     margin: 0;
     padding: 0;
 }
 
-textarea{
+textarea {
     resize: none;
     padding: 10px;
     border-radius: 5px;
-    border-color: palevioletred ;
+    border-color: palevioletred;
     border: 1px solid palevioletred;
+    background-color: wheat;
 }
 
-footer iframe{
+footer iframe {
     position: fixed;
     bottom: 0px;
     margin-bottom: -5px;
 }
 
-h1{
+h1 {
     font-size: 20px;
     padding: 5px;
     text-align: center;
 }
 
-div{
-    width:60% ;
+div {
+    width: 60%;
     margin: auto;
     padding-top: 25px;
+
 }
 
-body{
+body {
     margin: 0px;
     padding: 0;
 }
 
-button{
+button {
     padding: 10px;
     background-color: rgb(173, 59, 78);
-    color:wheat ;
+    color: wheat;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -88,6 +92,25 @@ button{
     width: 60%;
 }
 
- button:hover{
+button:hover {
     background-color: rgb(69, 30, 43);
- }
+}
+
+#iconemail{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background: url(../images/o-email.png) no-repeat left;
+    background-size: 25px;
+    outline: none;
+    border: 0;
+}
+
+#input_icon {
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+    background-color: wheat;
+    height: 40px;
+    border: 2px solid black;
+}
