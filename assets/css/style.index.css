@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container .container2 {
+    display: flex;
+}
+
+.container .container2 article {
+    width: 30%;
+}
+
+.container .container2 article section {
+    display: flex;
+}
