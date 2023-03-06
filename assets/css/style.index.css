@@ -20,6 +20,7 @@ body {
 
 main {
     background-color: pink;
+    padding: 20px;
     margin: 50px;
     -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
     -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
@@ -126,7 +127,7 @@ main .container {
 #c5 {
     background-color: pink;
 
-    height: 300px;
+    padding: 20px;
   margin-left: 60px;
     width: 33%;
     -webkit-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
@@ -159,7 +160,7 @@ main .container {
 #c7 {
     background-color: pink;
 
-    height: 300px;
+    padding: 20px;
     
     width: 33%;
     -webkit-box-shadow: -3px 6px 33px 13px rgba(0, 0, 0, 0.75);
@@ -199,7 +200,7 @@ main .container {
 #c10 {
     background-color: pink;
 
-    height: 300px;
+    padding: 20px;
     -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
 -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
 box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
@@ -217,7 +218,7 @@ box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     -webkit-box-shadow: -3px 6px 33px 13px rgba(0,0,0,0.75);
     -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
-    height: 300px;
+    padding: 20px;
     margin-left: 60px;
     width: 33%;
     border-radius: 5px;
@@ -229,7 +230,7 @@ box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     -webkit-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     -moz-box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
     box-shadow:  -3px 6px 33px 13px rgba(0,0,0,0.75);
-    height: 300px;
+    padding: 20px;
     margin-left: 60px;
     width: 33%;
     border-radius: 5px;
